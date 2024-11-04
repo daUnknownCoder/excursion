@@ -1,32 +1,35 @@
 @font-face {
   font-family: "Verdana";
-  src: url("/home/daUnknownCoder/Documents/excursion/resources/fonts/verdana/verdana.ttf");
+  src: url("/resources/fonts/verdana.ttf");
 }
 
-.header1 {
-  font-family: Verdana;
-  font-size: 50px;
+body {
+  font-family: Verdana, sans-serif;
+  background-color: black;
   color: white;
   text-align: center;
 }
 
-.cta {
-  font-family: Verdana;
+h1 {
+  font-size: 50px;
+  font-weight: normal;
+}
+
+a {
   color: aquamarine;
   font-size: 16px;
-  text-align: center;
 }
 
-.header2 {
-  font-family: Verdana;
+h2 {
   font-size: 42px;
-  color: white;
-  text-align: center;
+  font-weight: normal;
 }
 
-.header3 {
-  font-family: Verdana;
+p {
   font-size: 21px;
   color: gray;
-  text-align: center;
+}
+
+.footer {
+  text-align: right;
 }
