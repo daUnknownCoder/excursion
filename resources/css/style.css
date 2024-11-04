@@ -3,3 +3,10 @@
   src: url("/home/daUnknownCoder/Documents/excursion/resources/fonts/verdana/verdana.ttf");
 }
 
+.header1 {
+  font-family: Verdana;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+
